@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class BAI1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap chuoi vao mot chuot: ");
+        String chuoi = scanner.nextLine();
+        int soKyTu = chuoi.length();
+        System.out.println("So ky tu trong chuoi la: " + soKyTu);
+    }
+}
