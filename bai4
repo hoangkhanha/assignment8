@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class bai4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap vao mot chuoi: ");
+        String chuoi = scanner.nextLine();
+        String chuoiDaXoa = chuoi.trim().replaceAll("\\s+"," ");
+        System.out.println("Chuoi sau khi xoa khoang trang thua: " + chuoiDaXoa);
+    }
+}
