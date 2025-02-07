@@ -1,0 +1,10 @@
+mport java.util.Scanner;
+public class bai2 {
+     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+         System.out.print("Nhap vao mot chuoi: ");
+         String chuoi = scanner.nextLine();
+         int soTu = chuoi.length();
+         System.out.println("Dem so tu trong chuoi: " + soTu );
+    }
+}
